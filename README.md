@@ -48,6 +48,12 @@ To add a dependency to the project, run the following command:
 poetry add requests
 ```
 
+To install dependencies listed in the ``pyproject.toml``, run the following command:
+
+```bash	
+poetry install
+```
+
 This command will add the `requests` library as a dependency to the project.
 
 To package the project, run the following command:
